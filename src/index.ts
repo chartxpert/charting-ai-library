@@ -1,5 +1,5 @@
 /**
- * @chartxpert/sdk — public SDK surface.
+ * @chartxpert/charting-ai-library — public SDK surface.
  *
  * createChart() embeds the hosted ChartXpert chart (served from chartxpert.ai)
  * inside your page through a sandboxed iframe, and exposes a typed event and
