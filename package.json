@@ -1,0 +1,50 @@
+{
+  "name": "@chartxpert/sdk",
+  "version": "0.1.0",
+  "description": "Official ChartXpert SDK — embed live financial charts and consume free market data with a typed, bilingual (AR/EN) API.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./sources": {
+      "types": "./dist/sources/index.d.ts",
+      "import": "./dist/sources/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test dist/__tests__/*.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "financial-charts",
+    "charting-library",
+    "candlestick",
+    "arabic",
+    "rtl",
+    "stocks",
+    "crypto",
+    "forex",
+    "tadawul",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "author": "Difins Co. (https://difins.co)",
+  "homepage": "https://chartxpert.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chartxpert/sdk.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
