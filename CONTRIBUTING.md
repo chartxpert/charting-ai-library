@@ -1,4 +1,4 @@
-# Contributing to @chartxpert/sdk
+# Contributing to @chartxpert/charting-ai-library
 
 Thank you for your interest in contributing! / شكرًا لاهتمامك بالمساهمة!
 
@@ -14,8 +14,8 @@ Good first issues are labeled `good first issue` — a great place to start.
 ## Development setup
 
 ```bash
-git clone https://github.com/chartxpert/sdk.git
-cd sdk
+git clone https://github.com/chartxpert/charting-ai-library.git
+cd charting-ai-library
 npm install
 npm run build
 npm test
